@@ -1,6 +1,6 @@
 # inheritance-vjtipreportal-stesha
 
-## Introudction
+## Introduction
 End to end interactive portal for pre placement community. 
 
 Team Project built as part of <put your course name here>
