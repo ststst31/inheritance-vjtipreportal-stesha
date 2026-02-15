@@ -1,6 +1,5 @@
 ## Description
 VJTI PrepPortal is a student-focused placement preparation platform developed to centralize placement experiences, preparation roadmaps, and peer guidance within a single system. The project addresses the problem of scattered placement information by allowing students to share experiences, track their preparation journey, and access placement-related resources through a structured web interface. The system is built using the MERN stack (MongoDB, Express.js, React.js, Node.js).
-
 ---
 
 ## Links
