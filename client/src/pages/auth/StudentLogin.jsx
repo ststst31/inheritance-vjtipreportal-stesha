@@ -10,7 +10,7 @@ function Login({ setLoggedInUser }) {
 
   const handleLogin = async () => {
     try {
-      const res = await axios.post("http://localhost:5000/auth/login", {
+      const res = await axios.post("https://vjti-prepportal-backend.onrender.com/auth/login", {
         email: email,
         password: password
       });

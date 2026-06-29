@@ -14,7 +14,7 @@ function Profile({ user }) {
 
     if (id) {
       axios
-        .get(`http://localhost:5000/users/${id}`)
+        .get(`https://vjti-prepportal-backend.onrender.com/users/${id}`)
         .then((res) => setProfile(res.data))
         .catch((err) => console.log(err));
       return;

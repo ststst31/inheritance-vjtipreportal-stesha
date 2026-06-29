@@ -72,7 +72,7 @@ function EditProfile({ user, setLoggedInUser }) {
       }
 
       const res = await axios.put(
-        `http://localhost:5000/users/${userId}`,
+        `https://vjti-prepportal-backend.onrender.com/users/${userId}`,
         {
           name,
           bio,

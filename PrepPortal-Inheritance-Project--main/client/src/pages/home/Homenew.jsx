@@ -7,7 +7,7 @@ function Home() {
 
   const fetchPosts = async () => {
     try {
-      const res = await axios.get("http://localhost:5000/posts");
+      const res = await axios.get("https://vjti-prepportal-backend.onrender.com/posts");
       setPosts(res.data);
     } catch (err) {
       console.log(err);
@@ -28,7 +28,7 @@ function Home() {
     const profilePic = storedUser?.profilePic || "";
 
     try {
-      await axios.post("http://localhost:5000/posts", {
+      await axios.post("https://vjti-prepportal-backend.onrender.com/posts", {
         content: newPost,
         author: realName,
         email: email,

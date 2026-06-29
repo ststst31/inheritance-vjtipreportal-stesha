@@ -17,7 +17,7 @@ function UserSearch() {
 
     try {
       const res = await axios.get(
-        `http://localhost:5000/users/search?q=${value}`
+        `https://vjti-prepportal-backend.onrender.com/users/search?q=${value}`
       );
       setResults(res.data);
     } catch (err) {

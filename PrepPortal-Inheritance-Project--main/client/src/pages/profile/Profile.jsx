@@ -9,7 +9,7 @@ function Profile({ user }) {
   useEffect(() => {
     setProfile(null);
     if (id) {
-      axios.get(`http://localhost:5000/users/${id}`)
+      axios.get(`https://vjti-prepportal-backend.onrender.com/users/${id}`)
         .then(res => setProfile(res.data))
         .catch(err => console.log(err));
       return;

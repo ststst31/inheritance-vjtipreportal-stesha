@@ -11,7 +11,7 @@ function Signup() {
 
   const handleSignup = async () => {
     try {
-      await axios.post("http://localhost:5000/auth/register", form);
+      await axios.post("https://vjti-prepportal-backend.onrender.com/auth/register", form);
       alert("Account Created! Please Login.");
       navigate("/login");
     } catch (err) {
